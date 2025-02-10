@@ -249,6 +249,9 @@ li {
   float: left;
   padding: 0;
 }
+.second-ul a{
+  color: rgb(85, 85, 85);
+}
 .second-ul{
   padding-left: 60px;
 }
