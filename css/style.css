@@ -37,7 +37,7 @@ li {
   font-size: 17px;
   line-height: 25px;
   color: #ffffff;
-  padding: 15px 15px;
+  padding: 5px 15px;
 }
 .nav-bar .ul-nav a {
   color: #ffffff;
@@ -50,7 +50,7 @@ li {
 }
 .nav-container .logo {
   float: left;
-  padding: 30px 20px;
+  padding: 20px 20px;
 }
 
 .nav-container .nav-bar {
