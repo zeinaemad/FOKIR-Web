@@ -273,7 +273,15 @@ li {
   margin-right: 15px;
 
 }
-.button-about:hover button{
+.button-about{
+  float: left;
+}
+
+.CV:hover button{
+  background-color: #EC2403;
+  transition: all 1s ease;
+}
+.hire-me:hover button{
   background-color: #EC2403;
   transition: all 1s ease;
 }
