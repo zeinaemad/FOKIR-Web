@@ -22,7 +22,9 @@
     <div class="nav-fixed">
        <div class="nav-transparent">
         <div class="nav-container">
-            <div class="logo"> <a href="index.html">Fokir</a></div>
+            <div class="logo"> <a href="index.html">
+                Fokir
+            </a></div>
             <div class="nav-bar">
                 <ul class="ul-nav">
                     <li class="list-nav"><a href="#home">Home</a></li>
@@ -44,8 +46,8 @@
                 <div class="inner-header">
                     <h3>Hello i'm</h3>
                     <h1>alex smith</h1>
-                    <h4>professional Web <span>Designer</span></h4>
-                    <!-- <span>Developer</span> -->
+                    <h4>professional Web <span id="element">
+                    </span></h4>
                 </div>
             </div>
         </div>
@@ -411,7 +413,24 @@
         </div>
     </div>
     <!-- nav -->
+<!-- Link of The TypeScript -->
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Designer', 'Developer'],
+      typeSpeed: 50, // Faster typing speed
+      backSpeed: 50, // Faster backspacing speed
+      backDelay: 600, // Delay before backspacing starts
+      smartBackspace: false, // Only delete the difference between strings
+      loop: true, // Loop the animation
+      // Custom cursor character    cursorChar: '|', 
+      fadeOutDelay: 800, // Delay before fade-out starts
+    });
+  </script>
+  <!-- typing -->
 </body>
 
 </html>
